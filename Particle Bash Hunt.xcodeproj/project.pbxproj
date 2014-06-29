@@ -11,7 +11,6 @@
 		E13BDF66195F721E00BDF761 /* PlayerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13BDF65195F721E00BDF761 /* PlayerTest.swift */; };
 		E13BDF67195F722900BDF761 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB45691954968200C3AF99 /* Player.swift */; };
 		E13BDF68195F733800BDF761 /* Collision Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB456C1954BFEB00C3AF99 /* Collision Categories.swift */; };
-		E13BDF6C195F751E00BDF761 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = E13BDF6A195F751E00BDF761 /* spark.png */; };
 		E13BDF79195F75B800BDF761 /* thruster.sks in Resources */ = {isa = PBXBuildFile; fileRef = E13BDF77195F75B800BDF761 /* thruster.sks */; };
 		E1BA3461195F64D300EE9A58 /* VectorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA3460195F64D300EE9A58 /* VectorTest.swift */; };
 		E1BB454319548CE200C3AF99 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB454219548CE200C3AF99 /* main.swift */; };
@@ -24,8 +23,9 @@
 		E1BB456A1954968200C3AF99 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB45691954968200C3AF99 /* Player.swift */; };
 		E1BB456D1954BFEB00C3AF99 /* Collision Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB456C1954BFEB00C3AF99 /* Collision Categories.swift */; };
 		E1C5311F1954C98E00EE265A /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C5311E1954C98E00EE265A /* Vector.swift */; };
-		E1CEE9C2195F7B0900F904D2 /* Thruster.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CEE9C1195F7B0900F904D2 /* Thruster.swift */; };
-		E1CEE9C5195F80EC00F904D2 /* Thruster.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CEE9C1195F7B0900F904D2 /* Thruster.swift */; };
+		E1E31A09195F929D0058316B /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = E1E31A08195F929D0058316B /* spark.png */; };
+		E1E31A0B195F92FA0058316B /* Thruster.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E31A0A195F92FA0058316B /* Thruster.swift */; };
+		E1E31A0C195F92FA0058316B /* Thruster.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E31A0A195F92FA0058316B /* Thruster.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +47,6 @@
 
 /* Begin PBXFileReference section */
 		E13BDF65195F721E00BDF761 /* PlayerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerTest.swift; sourceTree = "<group>"; };
-		E13BDF6A195F751E00BDF761 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spark.png; path = "Particle Bash HuntTests/spark.png"; sourceTree = SOURCE_ROOT; };
 		E13BDF77195F75B800BDF761 /* thruster.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = thruster.sks; sourceTree = "<group>"; };
 		E1BA3460195F64D300EE9A58 /* VectorTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VectorTest.swift; sourceTree = "<group>"; };
 		E1BB453D19548CE200C3AF99 /* Particle Bash Hunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Particle Bash Hunt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,7 +64,8 @@
 		E1BB456B1954BFB400C3AF99 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		E1BB456C1954BFEB00C3AF99 /* Collision Categories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collision Categories.swift"; sourceTree = "<group>"; };
 		E1C5311E1954C98E00EE265A /* Vector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector.swift; sourceTree = "<group>"; };
-		E1CEE9C1195F7B0900F904D2 /* Thruster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Thruster.swift; path = ../Thruster.swift; sourceTree = "<group>"; };
+		E1E31A08195F929D0058316B /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		E1E31A0A195F92FA0058316B /* Thruster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thruster.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,8 @@
 		E1BB453F19548CE200C3AF99 /* Particle Bash Hunt */ = {
 			isa = PBXGroup;
 			children = (
-				E13BDF6A195F751E00BDF761 /* spark.png */,
+				E1E31A0A195F92FA0058316B /* Thruster.swift */,
+				E1E31A08195F929D0058316B /* spark.png */,
 				E1BB454419548CE200C3AF99 /* AppDelegate.swift */,
 				E1BB454619548CE200C3AF99 /* GameScene.swift */,
 				E1BB454819548CE200C3AF99 /* GameScene.sks */,
@@ -119,7 +120,6 @@
 				E1BB45691954968200C3AF99 /* Player.swift */,
 				E1BB456C1954BFEB00C3AF99 /* Collision Categories.swift */,
 				E1C5311E1954C98E00EE265A /* Vector.swift */,
-				E1CEE9C1195F7B0900F904D2 /* Thruster.swift */,
 				E13BDF77195F75B800BDF761 /* thruster.sks */,
 			);
 			path = "Particle Bash Hunt";
@@ -233,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1E31A09195F929D0058316B /* spark.png in Resources */,
 				E1BB454919548CE200C3AF99 /* GameScene.sks in Resources */,
 				E1BB454B19548CE200C3AF99 /* Images.xcassets in Resources */,
 				E1BB454E19548CE200C3AF99 /* MainMenu.xib in Resources */,
@@ -244,7 +245,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E13BDF6C195F751E00BDF761 /* spark.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +257,8 @@
 			files = (
 				E1BB454719548CE200C3AF99 /* GameScene.swift in Sources */,
 				E1BB454519548CE200C3AF99 /* AppDelegate.swift in Sources */,
+				E1E31A0B195F92FA0058316B /* Thruster.swift in Sources */,
 				E1BB456A1954968200C3AF99 /* Player.swift in Sources */,
-				E1CEE9C2195F7B0900F904D2 /* Thruster.swift in Sources */,
 				E1C5311F1954C98E00EE265A /* Vector.swift in Sources */,
 				E1BB456819548FFE00C3AF99 /* Moon.swift in Sources */,
 				E1BB456D1954BFEB00C3AF99 /* Collision Categories.swift in Sources */,
@@ -270,11 +270,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1CEE9C5195F80EC00F904D2 /* Thruster.swift in Sources */,
 				E13BDF68195F733800BDF761 /* Collision Categories.swift in Sources */,
 				E13BDF67195F722900BDF761 /* Player.swift in Sources */,
 				E12CFFCC195F69A400B72EB7 /* Vector.swift in Sources */,
 				E13BDF66195F721E00BDF761 /* PlayerTest.swift in Sources */,
+				E1E31A0C195F92FA0058316B /* Thruster.swift in Sources */,
 				E1BA3461195F64D300EE9A58 /* VectorTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
