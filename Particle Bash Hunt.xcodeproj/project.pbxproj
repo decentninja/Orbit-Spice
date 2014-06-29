@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E12CFFCC195F69A400B72EB7 /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C5311E1954C98E00EE265A /* Vector.swift */; };
+		E13BDF66195F721E00BDF761 /* PlayerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13BDF65195F721E00BDF761 /* PlayerTest.swift */; };
+		E13BDF67195F722900BDF761 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB45691954968200C3AF99 /* Player.swift */; };
+		E13BDF68195F733800BDF761 /* Collision Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB456C1954BFEB00C3AF99 /* Collision Categories.swift */; };
+		E13BDF6C195F751E00BDF761 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = E13BDF6A195F751E00BDF761 /* spark.png */; };
+		E13BDF79195F75B800BDF761 /* thruster.sks in Resources */ = {isa = PBXBuildFile; fileRef = E13BDF77195F75B800BDF761 /* thruster.sks */; };
+		E1BA3461195F64D300EE9A58 /* VectorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BA3460195F64D300EE9A58 /* VectorTest.swift */; };
+		E1BB454319548CE200C3AF99 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB454219548CE200C3AF99 /* main.swift */; };
+		E1BB454519548CE200C3AF99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB454419548CE200C3AF99 /* AppDelegate.swift */; };
+		E1BB454719548CE200C3AF99 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB454619548CE200C3AF99 /* GameScene.swift */; };
+		E1BB454919548CE200C3AF99 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E1BB454819548CE200C3AF99 /* GameScene.sks */; };
+		E1BB454B19548CE200C3AF99 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1BB454A19548CE200C3AF99 /* Images.xcassets */; };
+		E1BB454E19548CE200C3AF99 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1BB454C19548CE200C3AF99 /* MainMenu.xib */; };
+		E1BB456819548FFE00C3AF99 /* Moon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB456719548FFE00C3AF99 /* Moon.swift */; };
+		E1BB456A1954968200C3AF99 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB45691954968200C3AF99 /* Player.swift */; };
+		E1BB456D1954BFEB00C3AF99 /* Collision Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1BB456C1954BFEB00C3AF99 /* Collision Categories.swift */; };
+		E1C5311F1954C98E00EE265A /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C5311E1954C98E00EE265A /* Vector.swift */; };
+		E1CEE9C2195F7B0900F904D2 /* Thruster.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CEE9C1195F7B0900F904D2 /* Thruster.swift */; };
+		E1CEE9C5195F80EC00F904D2 /* Thruster.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CEE9C1195F7B0900F904D2 /* Thruster.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1BA3462195F667500EE9A58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1BB453519548CE100C3AF99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1BB453C19548CE100C3AF99;
+			remoteInfo = "Particle Bash Hunt";
+		};
+		E1BB455419548CE200C3AF99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1BB453519548CE100C3AF99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1BB453C19548CE100C3AF99;
+			remoteInfo = "Particle Bash Hunt";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E13BDF65195F721E00BDF761 /* PlayerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerTest.swift; sourceTree = "<group>"; };
+		E13BDF6A195F751E00BDF761 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spark.png; path = "Particle Bash HuntTests/spark.png"; sourceTree = SOURCE_ROOT; };
+		E13BDF77195F75B800BDF761 /* thruster.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = thruster.sks; sourceTree = "<group>"; };
+		E1BA3460195F64D300EE9A58 /* VectorTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VectorTest.swift; sourceTree = "<group>"; };
+		E1BB453D19548CE200C3AF99 /* Particle Bash Hunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Particle Bash Hunt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1BB454119548CE200C3AF99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1BB454219548CE200C3AF99 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E1BB454419548CE200C3AF99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1BB454619548CE200C3AF99 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E1BB454819548CE200C3AF99 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		E1BB454A19548CE200C3AF99 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E1BB454D19548CE200C3AF99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E1BB455319548CE200C3AF99 /* Particle Bash HuntTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Particle Bash HuntTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1BB455819548CE200C3AF99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1BB456719548FFE00C3AF99 /* Moon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moon.swift; sourceTree = "<group>"; };
+		E1BB45691954968200C3AF99 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		E1BB456B1954BFB400C3AF99 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		E1BB456C1954BFEB00C3AF99 /* Collision Categories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collision Categories.swift"; sourceTree = "<group>"; };
+		E1C5311E1954C98E00EE265A /* Vector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector.swift; sourceTree = "<group>"; };
+		E1CEE9C1195F7B0900F904D2 /* Thruster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Thruster.swift; path = ../Thruster.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1BB453A19548CE100C3AF99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BB455019548CE200C3AF99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1BB453419548CE100C3AF99 = {
+			isa = PBXGroup;
+			children = (
+				E1BB456B1954BFB400C3AF99 /* MyPlayground.playground */,
+				E1BB453F19548CE200C3AF99 /* Particle Bash Hunt */,
+				E1BB455619548CE200C3AF99 /* Particle Bash HuntTests */,
+				E1BB453E19548CE200C3AF99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1BB453E19548CE200C3AF99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1BB453D19548CE200C3AF99 /* Particle Bash Hunt.app */,
+				E1BB455319548CE200C3AF99 /* Particle Bash HuntTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1BB453F19548CE200C3AF99 /* Particle Bash Hunt */ = {
+			isa = PBXGroup;
+			children = (
+				E13BDF6A195F751E00BDF761 /* spark.png */,
+				E1BB454419548CE200C3AF99 /* AppDelegate.swift */,
+				E1BB454619548CE200C3AF99 /* GameScene.swift */,
+				E1BB454819548CE200C3AF99 /* GameScene.sks */,
+				E1BB454A19548CE200C3AF99 /* Images.xcassets */,
+				E1BB454C19548CE200C3AF99 /* MainMenu.xib */,
+				E1BB454019548CE200C3AF99 /* Supporting Files */,
+				E1BB456719548FFE00C3AF99 /* Moon.swift */,
+				E1BB45691954968200C3AF99 /* Player.swift */,
+				E1BB456C1954BFEB00C3AF99 /* Collision Categories.swift */,
+				E1C5311E1954C98E00EE265A /* Vector.swift */,
+				E1CEE9C1195F7B0900F904D2 /* Thruster.swift */,
+				E13BDF77195F75B800BDF761 /* thruster.sks */,
+			);
+			path = "Particle Bash Hunt";
+			sourceTree = "<group>";
+		};
+		E1BB454019548CE200C3AF99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1BB454119548CE200C3AF99 /* Info.plist */,
+				E1BB454219548CE200C3AF99 /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1BB455619548CE200C3AF99 /* Particle Bash HuntTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1BB455719548CE200C3AF99 /* Supporting Files */,
+				E1BA3460195F64D300EE9A58 /* VectorTest.swift */,
+				E13BDF65195F721E00BDF761 /* PlayerTest.swift */,
+			);
+			path = "Particle Bash HuntTests";
+			sourceTree = "<group>";
+		};
+		E1BB455719548CE200C3AF99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1BB455819548CE200C3AF99 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1BB453C19548CE100C3AF99 /* Particle Bash Hunt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1BB455D19548CE200C3AF99 /* Build configuration list for PBXNativeTarget "Particle Bash Hunt" */;
+			buildPhases = (
+				E1BB453919548CE100C3AF99 /* Sources */,
+				E1BB453A19548CE100C3AF99 /* Frameworks */,
+				E1BB453B19548CE100C3AF99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Particle Bash Hunt";
+			productName = "Particle Bash Hunt";
+			productReference = E1BB453D19548CE200C3AF99 /* Particle Bash Hunt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1BB455219548CE200C3AF99 /* Particle Bash HuntTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1BB456019548CE200C3AF99 /* Build configuration list for PBXNativeTarget "Particle Bash HuntTests" */;
+			buildPhases = (
+				E1BB454F19548CE200C3AF99 /* Sources */,
+				E1BB455019548CE200C3AF99 /* Frameworks */,
+				E1BB455119548CE200C3AF99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1BB455519548CE200C3AF99 /* PBXTargetDependency */,
+				E1BA3463195F667500EE9A58 /* PBXTargetDependency */,
+			);
+			name = "Particle Bash HuntTests";
+			productName = "Particle Bash HuntTests";
+			productReference = E1BB455319548CE200C3AF99 /* Particle Bash HuntTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1BB453519548CE100C3AF99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Andreas;
+				TargetAttributes = {
+					E1BB453C19548CE100C3AF99 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					E1BB455219548CE200C3AF99 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = E1BB453C19548CE100C3AF99;
+					};
+				};
+			};
+			buildConfigurationList = E1BB453819548CE100C3AF99 /* Build configuration list for PBXProject "Particle Bash Hunt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1BB453419548CE100C3AF99;
+			productRefGroup = E1BB453E19548CE200C3AF99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1BB453C19548CE100C3AF99 /* Particle Bash Hunt */,
+				E1BB455219548CE200C3AF99 /* Particle Bash HuntTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1BB453B19548CE100C3AF99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BB454919548CE200C3AF99 /* GameScene.sks in Resources */,
+				E1BB454B19548CE200C3AF99 /* Images.xcassets in Resources */,
+				E1BB454E19548CE200C3AF99 /* MainMenu.xib in Resources */,
+				E13BDF79195F75B800BDF761 /* thruster.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BB455119548CE200C3AF99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E13BDF6C195F751E00BDF761 /* spark.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1BB453919548CE100C3AF99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1BB454719548CE200C3AF99 /* GameScene.swift in Sources */,
+				E1BB454519548CE200C3AF99 /* AppDelegate.swift in Sources */,
+				E1BB456A1954968200C3AF99 /* Player.swift in Sources */,
+				E1CEE9C2195F7B0900F904D2 /* Thruster.swift in Sources */,
+				E1C5311F1954C98E00EE265A /* Vector.swift in Sources */,
+				E1BB456819548FFE00C3AF99 /* Moon.swift in Sources */,
+				E1BB456D1954BFEB00C3AF99 /* Collision Categories.swift in Sources */,
+				E1BB454319548CE200C3AF99 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1BB454F19548CE200C3AF99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CEE9C5195F80EC00F904D2 /* Thruster.swift in Sources */,
+				E13BDF68195F733800BDF761 /* Collision Categories.swift in Sources */,
+				E13BDF67195F722900BDF761 /* Player.swift in Sources */,
+				E12CFFCC195F69A400B72EB7 /* Vector.swift in Sources */,
+				E13BDF66195F721E00BDF761 /* PlayerTest.swift in Sources */,
+				E1BA3461195F64D300EE9A58 /* VectorTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1BA3463195F667500EE9A58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1BB453C19548CE100C3AF99 /* Particle Bash Hunt */;
+			targetProxy = E1BA3462195F667500EE9A58 /* PBXContainerItemProxy */;
+		};
+		E1BB455519548CE200C3AF99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1BB453C19548CE100C3AF99 /* Particle Bash Hunt */;
+			targetProxy = E1BB455419548CE200C3AF99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1BB454C19548CE200C3AF99 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1BB454D19548CE200C3AF99 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1BB455B19548CE200C3AF99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1BB455C19548CE200C3AF99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E1BB455E19548CE200C3AF99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Particle Bash Hunt/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E1BB455F19548CE200C3AF99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Particle Bash Hunt/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E1BB456119548CE200C3AF99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Particle Bash Hunt.app/Contents/MacOS/Particle Bash Hunt";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Particle Bash HuntTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		E1BB456219548CE200C3AF99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Particle Bash Hunt.app/Contents/MacOS/Particle Bash Hunt";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Particle Bash HuntTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1BB453819548CE100C3AF99 /* Build configuration list for PBXProject "Particle Bash Hunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1BB455B19548CE200C3AF99 /* Debug */,
+				E1BB455C19548CE200C3AF99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1BB455D19548CE200C3AF99 /* Build configuration list for PBXNativeTarget "Particle Bash Hunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1BB455E19548CE200C3AF99 /* Debug */,
+				E1BB455F19548CE200C3AF99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1BB456019548CE200C3AF99 /* Build configuration list for PBXNativeTarget "Particle Bash HuntTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1BB456119548CE200C3AF99 /* Debug */,
+				E1BB456219548CE200C3AF99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1BB453519548CE100C3AF99 /* Project object */;
+}
